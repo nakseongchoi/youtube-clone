@@ -6,7 +6,7 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
-import userRouter from "./routers/userRouter"; //./router파일에서 {userRouter}만 가지고 올 것이므로 이렇게 써줘야하ㅑㄴ다.
+import userRouter from "./routers/userRouter"; 
 import videoRouter from "./routers/videoRouter";
 import globalRouter from "./routers/globalRouter";
 import routes from "./routes";
